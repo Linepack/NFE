@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Flavia/Desktop/ConsultaCadastro.wsdl" uri="wsdl/ConsultaCadastro.wsdl"/>
+    <system systemId="file:/C:/Users/Franciscato/Desktop/ConsultaCadastro.wsdl" uri="wsdl/ConsultaCadastro.wsdl"/>
+    <system systemId="file:/C:/Users/Franciscato/Desktop/StatusServico.wsdl" uri="wsdl/StatusServico.wsdl"/>
+</catalog>

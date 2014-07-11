@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<retConsCad xmlns="http://www.portalfiscal.inf.br/nfe" versao="2.00">
+    <infCons>
+        <verAplic>PR-v2_8_7</verAplic>
+        <cStat>112</cStat>
+        <xMotivo>Consulta cadastro com mais de uma ocorrÃªncia</xMotivo>
+        <UF>PR</UF>
+        <CNPJ>01733454000134</CNPJ>
+        <dhCons>2014-07-11T18:52:01</dhCons>
+        <cUF>41</cUF>
+        <infCad>
+            <IE>9012679014</IE>
+            <CNPJ>1733454000134</CNPJ>
+            <UF>PR</UF>
+            <cSit>1</cSit>
+            <indCredNFe>4</indCredNFe>
+            <indCredCTe>4</indCredCTe>
+            <xNome>FLEXOPRINT ETIQUETAS LTDA</xNome>
+            <xFant>FLEXOPRINT ETIQUETAS</xFant>
+            <xRegApur>Normal - Normal</xRegApur>
+            <CNAE>2229399</CNAE>
+            <dIniAtiv>1997-04-01</dIniAtiv>
+            <dUltSit>2012-11-01</dUltSit>
+            <ender>
+                <xLgr>ROD BR 376 KM 189</xLgr>
+                <nro>4900</nro>
+                <xBairro>PARQUE INDUSTRIAL</xBairro>
+                <xMun>MARIALVA</xMun>
+                <CEP>86990000</CEP>
+            </ender>
+        </infCad>
+        <infCad>
+            <IE>9035448052</IE>
+            <CNPJ>1733454000134</CNPJ>
+            <UF>PR</UF>
+            <cSit>0</cSit>
+            <indCredNFe>4</indCredNFe>
+            <indCredCTe>4</indCredCTe>
+            <xNome>FLEXOPRINT ETIQUETAS LTDA</xNome>
+            <xFant>FLEXOPRINT ETIQUETAS</xFant>
+            <xRegApur>Regime Diferenciado - Bom Emprego</xRegApur>
+            <CNAE>2229399</CNAE>
+            <dIniAtiv>2005-10-01</dIniAtiv>
+            <dUltSit>2009-12-21</dUltSit>
+            <dBaixa>2009-09-01</dBaixa>
+            <ender>
+                <xLgr>ROD BR 376 KM 189</xLgr>
+                <nro>S/N</nro>
+                <xBairro>GL RIB SARANDI</xBairro>
+                <xMun>MARIALVA</xMun>
+                <CEP>86990000</CEP>
+            </ender>
+        </infCad>
+    </infCons>
+</retConsCad>[INFO] NETBEANS-ExecEvent:{"mojo":{"id":"org.codehaus.mojo:exec-maven-plugin:1.2.1","impl":"org.codehaus.mojo.exec.ExecMojo","source":"CLI","urls":["file:\/C:\/Users\/Franciscato\/.m2\/repository\/org\/codehaus\/mojo\/exec-maven-plugin\/1.2.1\/exec-maven-plugin-1.2.1.jar","file:\/C:\/Users\/Franciscato\/.m2\/repository\/org\/apache\/maven\/reporting\/maven-reporting-api\/2.0.6\/maven-reporting-api-2.0.6.jar","file:\/C:\/Users\/Franciscato\/.m2\/repository\/org\/apache\/maven\/doxia\/doxia-sink-api\/1.0-alpha-7\/doxia-sink-api-1.0-alpha-7.jar","file:\/C:\/Users\/Franciscato\/.m2\/repository\/commons-cli\/commons-cli\/1.0\/commons-cli-1.0.jar","file:\/C:\/Users\/Franciscato\/.m2\/repository\/org\/codehaus\/plexus\/plexus-interactivity-api\/1.0-alpha-4\/plexus-interactivity-api-1.0-alpha-4.jar","file:\/C:\/Users\/Franciscato\/.m2\/repository\/org\/codehaus\/plexus\/plexus-utils\/2.0.5\/plexus-utils-2.0.5.jar","file:\/C:\/Users\/Franciscato\/.m2\/repository\/org\/apache\/commons\/commons-exec\/1.1\/commons-exec-1.1.jar"],"execId":"default-cli","goal":"exec"},"type":"MojoSucceeded"}
