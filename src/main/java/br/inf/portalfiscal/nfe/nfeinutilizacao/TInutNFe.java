@@ -4,8 +4,6 @@
 // Any modifications to this file will be lost upon recompilation of the source schema. 
 // Generated on: 2014.07.14 at 10:51:19 PM BRT 
 //
-
-
 package br.inf.portalfiscal.nfe.nfeinutilizacao;
 
 import javax.xml.bind.annotation.XmlAccessType;
@@ -13,19 +11,23 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlAttribute;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlID;
+import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import org.apache.commons.lang.StringUtils;
 import org.w3._2000._09.xmldsig.SignatureType;
-
 
 /**
  * Tipo Pedido de Inutiliza��o de Numera��o da Nota Fiscal Eletr�nica
- * 
- * <p>Java class for TInutNFe complex type.
- * 
- * <p>The following schema fragment specifies the expected content contained within this class.
- * 
+ *
+ * <p>
+ * Java class for TInutNFe complex type.
+ *
+ * <p>
+ * The following schema fragment specifies the expected content contained within
+ * this class.
+ *
  * <pre>
  * &lt;complexType name="TInutNFe">
  *   &lt;complexContent>
@@ -71,14 +73,15 @@ import org.w3._2000._09.xmldsig.SignatureType;
  *   &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "TInutNFe", propOrder = {
     "infInut",
     "signature"
 })
+@XmlRootElement(name = "inutNFe")
 public class TInutNFe {
 
     @XmlElement(required = true)
@@ -91,11 +94,9 @@ public class TInutNFe {
 
     /**
      * Gets the value of the infInut property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link TInutNFe.InfInut }
-     *     
+     *
+     * @return possible object is {@link TInutNFe.InfInut }
+     *
      */
     public TInutNFe.InfInut getInfInut() {
         return infInut;
@@ -103,11 +104,9 @@ public class TInutNFe {
 
     /**
      * Sets the value of the infInut property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link TInutNFe.InfInut }
-     *     
+     *
+     * @param value allowed object is {@link TInutNFe.InfInut }
+     *
      */
     public void setInfInut(TInutNFe.InfInut value) {
         this.infInut = value;
@@ -115,11 +114,9 @@ public class TInutNFe {
 
     /**
      * Gets the value of the signature property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link SignatureType }
-     *     
+     *
+     * @return possible object is {@link SignatureType }
+     *
      */
     public SignatureType getSignature() {
         return signature;
@@ -127,11 +124,9 @@ public class TInutNFe {
 
     /**
      * Sets the value of the signature property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link SignatureType }
-     *     
+     *
+     * @param value allowed object is {@link SignatureType }
+     *
      */
     public void setSignature(SignatureType value) {
         this.signature = value;
@@ -139,11 +134,9 @@ public class TInutNFe {
 
     /**
      * Gets the value of the versao property.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
+     *
+     * @return possible object is {@link String }
+     *
      */
     public String getVersao() {
         return versao;
@@ -151,22 +144,22 @@ public class TInutNFe {
 
     /**
      * Sets the value of the versao property.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
+     *
+     * @param value allowed object is {@link String }
+     *
      */
     public void setVersao(String value) {
         this.versao = value;
     }
 
-
     /**
-     * <p>Java class for anonymous complex type.
-     * 
-     * <p>The following schema fragment specifies the expected content contained within this class.
-     * 
+     * <p>
+     * Java class for anonymous complex type.
+     *
+     * <p>
+     * The following schema fragment specifies the expected content contained
+     * within this class.
+     *
      * <pre>
      * &lt;complexType>
      *   &lt;complexContent>
@@ -200,8 +193,8 @@ public class TInutNFe {
      *   &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
@@ -245,11 +238,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the tpAmb property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getTpAmb() {
             return tpAmb;
@@ -257,11 +248,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the tpAmb property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setTpAmb(String value) {
             this.tpAmb = value;
@@ -269,11 +258,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the xServ property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getXServ() {
             return xServ;
@@ -281,11 +268,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the xServ property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setXServ(String value) {
             this.xServ = value;
@@ -293,11 +278,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the cuf property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getCUF() {
             return cuf;
@@ -305,11 +288,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the cuf property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setCUF(String value) {
             this.cuf = value;
@@ -317,11 +298,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the ano property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getAno() {
             return ano;
@@ -329,11 +308,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the ano property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setAno(String value) {
             this.ano = value;
@@ -341,11 +318,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the cnpj property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getCNPJ() {
             return cnpj;
@@ -353,11 +328,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the cnpj property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setCNPJ(String value) {
             this.cnpj = value;
@@ -365,11 +338,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the mod property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getMod() {
             return mod;
@@ -377,11 +348,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the mod property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setMod(String value) {
             this.mod = value;
@@ -389,11 +358,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the serie property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getSerie() {
             return serie;
@@ -401,11 +368,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the serie property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setSerie(String value) {
             this.serie = value;
@@ -413,11 +378,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the nnfIni property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getNNFIni() {
             return nnfIni;
@@ -425,11 +388,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the nnfIni property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setNNFIni(String value) {
             this.nnfIni = value;
@@ -437,11 +398,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the nnfFin property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getNNFFin() {
             return nnfFin;
@@ -449,11 +408,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the nnfFin property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setNNFFin(String value) {
             this.nnfFin = value;
@@ -461,11 +418,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the xJust property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getXJust() {
             return xJust;
@@ -473,11 +428,9 @@ public class TInutNFe {
 
         /**
          * Sets the value of the xJust property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setXJust(String value) {
             this.xJust = value;
@@ -485,11 +438,9 @@ public class TInutNFe {
 
         /**
          * Gets the value of the id property.
-         * 
-         * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         *
+         * @return possible object is {@link String }
+         *
          */
         public String getId() {
             return id;
@@ -497,14 +448,13 @@ public class TInutNFe {
 
         /**
          * Sets the value of the id property.
-         * 
-         * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         *
+         * @param value allowed object is {@link String }
+         *
          */
         public void setId(String value) {
-            this.id = value;
+            this.id = value + this.cuf + this.ano + this.cnpj + this.mod
+                    + StringUtils.leftPad(this.serie, 3, "0") + StringUtils.leftPad(this.nnfIni, 9, "0") + StringUtils.leftPad(this.nnfFin, 9, "0");
         }
 
     }

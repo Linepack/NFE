@@ -1,6 +1,7 @@
 
 package br.inf.portalfiscal.wsdl.nfeinutilizacao2;
 
+import br.inf.portalfiscal.nfe.nfeinutilizacao.TInutNFe;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -32,7 +33,8 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "content"
+    "content",
+    "inutNFe"
 })
 @XmlRootElement(name = "nfeDadosMsg")
 public class NfeDadosMsg {
@@ -40,6 +42,8 @@ public class NfeDadosMsg {
     @XmlMixed
     @XmlAnyElement(lax = true)
     protected List<Object> content;
+    
+    protected TInutNFe inutNFe;
 
     /**
      * Gets the value of the content property.

@@ -1,6 +1,7 @@
 
 package br.inf.portalfiscal.wsdl.nfeinutilizacao2;
 
+import br.inf.portalfiscal.nfe.nfeinutilizacao.TRetInutNFe;
 import java.util.ArrayList;
 import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -32,7 +33,8 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "content"
+    "content",
+    "retInutNFe"
 })
 @XmlRootElement(name = "nfeInutilizacaoNF2Result")
 public class NfeInutilizacaoNF2Result {
@@ -40,6 +42,8 @@ public class NfeInutilizacaoNF2Result {
     @XmlMixed
     @XmlAnyElement(lax = true)
     protected List<Object> content;
+    
+    protected TRetInutNFe retInutNFe;
 
     /**
      * Gets the value of the content property.
