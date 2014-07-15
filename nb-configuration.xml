@@ -15,5 +15,7 @@ Any value defined here will override the pom.xml file value but is only applicab
 -->
         <org-netbeans-modules-maven-jaxws._5f_C_5f_ConsultaCadastro>file:/C:/Users/Flavia/Desktop/ConsultaCadastro.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_ConsultaCadastro>
         <org-netbeans-modules-maven-jaxws._5f_C_5f_StatusServico>file:/C:/Users/Franciscato/Desktop/StatusServico.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_StatusServico>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_NfeRecepcao>file:/C:/Users/Franciscato/Desktop/NfeRecepcao.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_NfeRecepcao>
+        <org-netbeans-modules-maven-jaxws._5f_C_5f_NfeInutilizacao>file:/C:/Users/Franciscato/Desktop/NfeInutilizacao.wsdl</org-netbeans-modules-maven-jaxws._5f_C_5f_NfeInutilizacao>
     </properties>
 </project-shared-configuration>

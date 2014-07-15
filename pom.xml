@@ -48,6 +48,36 @@
                         <id>wsimport-generate-StatusServico</id>
                         <phase>generate-sources</phase>
                     </execution>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <wsdlFiles>
+                                <wsdlFile>NfeRecepcao.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <packageName></packageName>
+                            <wsdlLocation>file:/C:/Users/Franciscato/Desktop/NfeRecepcao.wsdl</wsdlLocation>
+                            <staleFile>${project.build.directory}/jaxws/stale/NfeRecepcao.stale</staleFile>
+                        </configuration>
+                        <id>wsimport-generate-NfeRecepcao</id>
+                        <phase>generate-sources</phase>
+                    </execution>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <wsdlFiles>
+                                <wsdlFile>NfeInutilizacao.wsdl</wsdlFile>
+                            </wsdlFiles>
+                            <packageName></packageName>
+                            <wsdlLocation>file:/C:/Users/Franciscato/Desktop/NfeInutilizacao.wsdl</wsdlLocation>
+                            <staleFile>${project.build.directory}/jaxws/stale/NfeInutilizacao.stale</staleFile>
+                        </configuration>
+                        <id>wsimport-generate-NfeInutilizacao</id>
+                        <phase>generate-sources</phase>
+                    </execution>
                 </executions>
                 <dependencies>
                     <dependency>

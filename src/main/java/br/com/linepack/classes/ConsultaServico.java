@@ -19,7 +19,7 @@ public class ConsultaServico {
 
     public static void processa() throws JAXBException, IOException {
 
-        System.setProperty("com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump", "true");        
+        //System.setProperty("com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump", "true");        
 
         // Solicitação
         NfeDadosMsg nfeDadosMsg = createNfeDadosMsg();
@@ -29,9 +29,7 @@ public class ConsultaServico {
 
         for (Object ob : nfeStatusServicoNF2Result.getContent()) {
             TRetConsStatServ retConsStatServ;
-            retConsStatServ = (TRetConsStatServ) ob;
-
-            System.out.println(retConsStatServ.getXMotivo());
+            retConsStatServ = (TRetConsStatServ) ob;           
 
             JAXBContext contexto = JAXBContext.newInstance(br.inf.portalfiscal.nfe.consultaservico.ObjectFactory.class);
             Marshaller m = contexto.createMarshaller();

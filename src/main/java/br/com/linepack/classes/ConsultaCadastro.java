@@ -16,7 +16,7 @@ import javax.xml.ws.Holder;
 public class ConsultaCadastro {
 
     public static void processa() throws JAXBException {
-        System.setProperty("com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump", "true");          
+        //System.setProperty("com.sun.xml.internal.ws.transport.http.client.HttpTransportPipe.dump", "true");          
         
         NfeDadosMsg nfeDadosMsg = createNfeDadosMsg();
         Holder<NfeCabecMsg> holderNfeCabecMsg = new Holder<>(createNfeCabecMsg());        
